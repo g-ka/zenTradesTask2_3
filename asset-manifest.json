@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zenTradesTask2_3/static/css/main.cae363a5.css",
-    "main.js": "/zenTradesTask2_3/static/js/main.0a70e187.js",
+    "main.js": "/zenTradesTask2_3/static/js/main.79c62f59.js",
     "static/media/background.jpg": "/zenTradesTask2_3/static/media/background.32373fd0c69e5d0e5f22.jpg",
     "static/media/logo.png": "/zenTradesTask2_3/static/media/logo.b7a8f43037b4376637b1.png",
     "index.html": "/zenTradesTask2_3/index.html",
     "main.cae363a5.css.map": "/zenTradesTask2_3/static/css/main.cae363a5.css.map",
-    "main.0a70e187.js.map": "/zenTradesTask2_3/static/js/main.0a70e187.js.map"
+    "main.79c62f59.js.map": "/zenTradesTask2_3/static/js/main.79c62f59.js.map"
   },
   "entrypoints": [
     "static/css/main.cae363a5.css",
-    "static/js/main.0a70e187.js"
+    "static/js/main.79c62f59.js"
   ]
 }
