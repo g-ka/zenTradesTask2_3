@@ -1,0 +1,13 @@
+@use './abstract/media_queries';
+@use './abstract/font.scss';
+
+@use './generic/generic';
+
+@use './pages/auth/title.scss';
+@use './pages/auth/form.scss';
+
+@use './pages/dash/header.scss';
+@use './pages/dash/main.scss';
+@use './pages/dash/companyMetrics.scss';
+@use './pages/dash/revenueGraphs.scss';
+@use './pages/dash/footer.scss';

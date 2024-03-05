@@ -1,0 +1,21 @@
+.revenue_graphs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem 4rem 4rem;
+
+  &_one, &_two{
+    display: flex;
+    flex-direction: column;
+
+    h3{
+      padding: 0;
+    }
+
+    &_chart{
+      background-color: white;
+      padding: 1rem;
+      border-radius: 5px;
+    }    
+  }
+}

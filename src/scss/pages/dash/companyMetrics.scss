@@ -1,0 +1,32 @@
+h3{
+  padding: 0 4rem;
+  margin-bottom: 2rem;
+}
+
+.company_metrics{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 0 4rem 4rem 4rem;
+  gap: 1.5rem;
+
+  &_entity{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-left: 8px solid rgb(238, 96, 113);
+    border-radius: 3px;
+
+    &_quant{
+      font-size: 1.2rem;
+    }
+
+    &_titleIcon{
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+      column-gap: 0.5rem;
+    }
+  }
+}

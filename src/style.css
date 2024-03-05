@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.auth_main {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("assets/image/auth/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 4rem;
+}
+
+input[type=checkbox] {
+  accent-color: rgb(238, 85, 102);
+}
+
+.title_img {
+  aspect-ratio: 2048/282;
+  width: 25vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  min-width: 25vw;
+}
+form .input_prime {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form .input_prime input:focus {
+  outline: none;
+}
+form .input_prime_email, form .input_prime_password {
+  background-color: rgb(227, 227, 227);
+  padding: 1.25rem 2rem;
+  font-size: 1.2rem;
+  color: gray;
+  border: none;
+  font-weight: 500;
+}
+form .input_prime_email {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+form .input_prime_password {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+form .input_remember {
+  display: flex;
+  column-gap: 0.5rem;
+  margin-top: 1rem;
+}
+form .input_remember_phrase {
+  color: white;
+}
+form button {
+  background-color: rgb(238, 85, 102);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: rgb(233, 53, 74);
+}
+form a {
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header .top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 3rem;
+  background-color: rgb(18, 18, 18);
+  box-shadow: 0 4px 3px -2px rgba(117, 117, 117, 0.2);
+}
+header .top_section_logo {
+  aspect-ratio: 1/1;
+  width: 75px;
+}
+header .top_section_task {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(238, 85, 102);
+  text-transform: uppercase;
+}
+
+.dash_main {
+  background-color: rgb(227, 227, 227);
+  padding-top: 8rem;
+}
+
+h3 {
+  padding: 0 4rem;
+  margin-bottom: 2rem;
+}
+
+.company_metrics {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 0 4rem 4rem 4rem;
+  gap: 1.5rem;
+}
+.company_metrics_entity {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-left: 8px solid rgb(238, 96, 113);
+  border-radius: 3px;
+}
+.company_metrics_entity_quant {
+  font-size: 1.2rem;
+}
+.company_metrics_entity_titleIcon {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  column-gap: 0.5rem;
+}
+
+.revenue_graphs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem 4rem 4rem;
+}
+.revenue_graphs_one, .revenue_graphs_two {
+  display: flex;
+  flex-direction: column;
+}
+.revenue_graphs_one h3, .revenue_graphs_two h3 {
+  padding: 0;
+}
+.revenue_graphs_one_chart, .revenue_graphs_two_chart {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+footer .author {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(238, 85, 102);
+}
+
+/*# sourceMappingURL=style.css.map */

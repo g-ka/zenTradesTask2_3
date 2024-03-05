@@ -1,0 +1,63 @@
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  min-width: 25vw;
+
+  .input_prime{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    input:focus{
+      outline: none;
+    }
+    &_email, &_password{
+      background-color: rgb(227, 227, 227);
+      padding: 1.25rem 2rem;
+      font-size: 1.2rem;
+      color: gray;
+      border: none;    
+      font-weight: 500;      
+    }
+    &_email{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    &_password{
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }  
+
+  .input_remember{
+    display: flex;
+    column-gap: 0.5rem;
+    margin-top: 1rem;
+
+    &_phrase{
+      color: white;
+    }
+  }
+
+  button{
+    background-color: rgba(238,85,102,255);
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(233, 53, 74); 
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+  }
+}
