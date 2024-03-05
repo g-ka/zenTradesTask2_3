@@ -180,4 +180,33 @@ footer .author {
   background-color: rgb(238, 85, 102);
 }
 
+.email_main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 18, 18);
+}
+.email_main form h1 {
+  color: white;
+}
+.email_main form input, .email_main form textarea {
+  width: 100%;
+  background-color: rgb(227, 227, 227);
+  padding: 1.25rem 2rem;
+  font-size: 1.2rem;
+  color: gray;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.email_main form .back_button {
+  border: 2px solid rgb(238, 85, 102);
+  background-color: rgb(18, 18, 18);
+}
+.email_main form .back_button:hover {
+  background-color: rgb(38, 38, 38);
+}
+
 /*# sourceMappingURL=style.css.map */

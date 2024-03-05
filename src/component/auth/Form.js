@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Form = () => {
 
@@ -18,13 +18,13 @@ const Form = () => {
     setIsPasswordValid(PWD_REGEX.test(password));
   }, [email, password]);
 
-  const onSubmit = (e) => {
+  const submit = (e) => {
     e.preventDefault();
     const inValid = "Invalid Email or Invalid Password(must contain atleast 1 uppercase, lowercase, @, digit and between 8 - 24 characters)";
     if(!isEmailValid || !isPasswordValid) window.alert(inValid);    
     else if(password != "ZenTradesTest@123") window.alert("Fields are valid but no response due to incorrect password!");
     else navigate('/dash');
-  };
+  };  
 
   return (
     <form>
@@ -53,13 +53,13 @@ const Form = () => {
       </div>      
       <button
         type='submit'
-        onClick={e => onSubmit(e)}
+        onClick={e => submit(e)}
       >
         Sign In
       </button>
-      <a href='#'>
+      <Link to='/email'>
         Forgot your password?
-      </a>
+      </Link>
     </form>
   )
 }
